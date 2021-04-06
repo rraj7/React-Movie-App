@@ -32,7 +32,7 @@ const Trending = () => {
     
     return (
         <div>
-            <span className = "pageTitle">Trending</span>
+            <span className = "pageTitle">Trending Movies and TV Shows!</span>
             <span className = 'trending'>
                 {
                     content && content.map((e)=>(
